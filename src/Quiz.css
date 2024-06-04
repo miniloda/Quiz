@@ -1,7 +1,6 @@
 .Quiz{
 
-    width: 100%;
-    max-width: 600px;
+    width: 600px;
     height: auto;
     border-color: black;
     border: 4px;
@@ -13,6 +12,7 @@
 @media (max-width: 768px) {
     .Quiz {
         padding: 20px;
+        max-width: 80vw;
     }
 }
 
@@ -20,6 +20,7 @@
     .Quiz {
         padding: 10px;
         font-size: 14px;
+        max-width: 80vw;
     }
     
     #next-button {
@@ -32,6 +33,7 @@
 .details{
     margin-top: 20px;
     color:white;
+    width: 100%;
 }
 #next-button{
     background-color: #c233cc;
