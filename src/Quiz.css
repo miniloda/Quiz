@@ -1,0 +1,24 @@
+.Quiz{
+    width: 600px;
+    height: auto;
+    border-color: black;
+    border: 4px;
+    border-style: solid;
+    padding:40px;
+    margin: 0 auto;
+}
+
+.details{
+    margin-top: 20px;
+    color:white;
+}
+#next-button{
+    background-color: #c233cc;
+    float:right;
+}
+#next-button:hover{
+    cursor: pointer;
+}
+.hidden-display{
+    display:none
+}
